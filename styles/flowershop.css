@@ -1,0 +1,59 @@
+/*Common shared styles*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/*intro section styles*/
+.intro{
+    display: flex;
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+    background: rgba(229, 84, 115, 0.10);
+    justify-content: space-between;
+    padding-top: 197px;
+    padding-left: 240px;
+}
+.section-title{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.section-description{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn-shop{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-style: none;
+}
+.tulip-flower{
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    padding: 50px 240px 4017px 240px;
+}
